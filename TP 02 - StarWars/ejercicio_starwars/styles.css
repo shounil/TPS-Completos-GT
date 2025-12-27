@@ -1,0 +1,111 @@
+*{ 
+    margin: 0; padding: 0; box-sizing: border-box; 
+}
+body{
+    overflow-x: hidden;
+}
+.header{
+    margin: 0;
+    background: url(https://img.freepik.com/vector-gratis/fondo-cielo-nocturno-acuarela-pintado-mano_1048-16653.jpg?t=st=1748924872~exp=1748928472~hmac=d03f49b8e699196b07afce957c2058740cd12b25e4b90474a8e6a6cfc6ad183e&w=1380) top / cover fixed no-repeat;
+    color: aliceblue;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.header--img{
+    height: 250px;
+    width: 600px;
+    filter: drop-shadow(0px 0px 30px rgba(255, 255, 2, 0.458));
+}
+.header--title{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.espada{
+    /* height: 30px; */
+    display: flex;
+}
+.laser{
+    width: 100%;
+    height: 30px;
+}
+.rojo{
+    background-color: red;
+    box-shadow: 0 0 20px red; 
+}
+.verde{
+    background-color: rgb(0, 255, 0);
+    box-shadow: 0 0 20px rgb(0, 255, 0); 
+}
+.mango{
+    justify-content: center;
+    height: 30px;
+    width: 20%;
+    background-color: black;
+}
+.imperio{
+    margin: 0;
+    background: url(https://mymodernmet.com/wp/wp-content/uploads/2020/04/star-wars-video-call-backgrounds-2.jpg) top / cover fixed no-repeat;
+    color: aliceblue;
+    min-height: 100vh;
+    width: 100%;
+}
+.imperio--title{
+    margin: 0;
+    padding-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 2.5em;
+    color: rgb(158, 25, 25);
+    text-shadow: 0 0 10px rgb(82, 15, 15);
+}
+.imperio--personajes{
+    /* width: 1100px; */
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: baseline;
+    /* margin: 20px; */
+}
+.PJ{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.rebeldes{
+    margin: 0;
+    background: url(https://mymodernmet.com/wp/wp-content/uploads/2020/04/star-wars-video-call-backgrounds-5.jpg) top / cover fixed no-repeat;
+    color: aliceblue;
+    min-height: 100vh;
+    width: 100%;
+}
+.rebelde--title{
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 2.5em;
+    color: rgb(22, 205, 22);
+    text-shadow: 0 0 10px rgb(37, 152, 37);
+    padding-top: 20px;
+
+}
+.rebelde--personajes{
+    /* width: 1100px; */
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: baseline;
+    /* margin: 20px; */
+}
