@@ -1,0 +1,40 @@
+*{ 
+    margin: 0; padding: 0; box-sizing: border-box; 
+}
+.caratula{
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    gap: 40px;
+    /* background-color: #0a009f; parece de bocaxddddd */
+    background: url(https://wallpaper.forfun.com/fetch/4a/4a1f8b95dabc93bde56af9b879ecec4c.jpeg?w=1470&r=0.5625) top / cover fixed no-repeat;
+}
+.caratula--titulo{
+    color: #f09f0f;
+    text-shadow: 0 0 50px #ffdf0f;
+    font-size: 1.75em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.fondo--boton{
+    background-color: rgb(27, 144, 27);
+    padding: 8px 16px;
+    border-radius: 15px;
+    border: 2px rgb(27, 144, 27) solid;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.link--boton{
+    color: white;
+    text-decoration: none;
+}
+
+.fondo--boton:hover{
+    background-color: #0909;
+    box-shadow: 0px 0px 30px green;
+    transition: background-color 1s, box-shadow 1s;
+}

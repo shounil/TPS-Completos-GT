@@ -1,0 +1,114 @@
+*{ 
+    margin: 0; padding: 0; box-sizing: border-box; 
+}
+.historia{
+    background-color: gray;
+    min-height: 100vh;
+    width: 100%;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-flow: column;
+    /* gap: 40px; */
+    flex-wrap: wrap;
+    font-size: 16px;
+}
+
+.historia--titulo{
+    text-shadow:0px 0px 20px #fff;
+    /* padding: 1em; */
+    font-size: 2em;
+    text-align: center;
+}
+.historia--titulo:hover{
+    text-decoration:underline;
+}
+
+.historia--texto{
+    /* padding: 20px; */
+    text-align: justify;
+    padding: 1.75em;
+    font-size: 1em;
+}
+
+.historia--opciones{
+    text-align: center;
+    /* display: flex; */
+    display: inline-block;
+    padding-bottom: 1.5em;
+    font-size: 1em;
+}
+a{
+    text-decoration: none;
+    /* padding: 20px; */
+    color: #fffc;
+    font-style: italic;
+}
+a:hover{
+    text-shadow: 0px 0px 10px #fff;
+}
+ul{
+    margin: 0.7em;
+}
+.historia--opciones--titulo{
+    font-size: 1.5em;
+}
+@media (max-width: 600px) {
+    .historia{
+    background-color: rgb(39, 2, 2);
+    min-height: 100vh;
+    width: 100%;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-flow: column;
+    /* gap: 40px; */
+    flex-wrap: wrap;
+    font-size: 16px;
+    }
+    .historia--titulo {
+    text-shadow: 0px 0px 20px #fff;
+    font-size: 75px;
+    text-align: center;
+    }
+
+    .historia--titulo:hover {
+    text-decoration: underline;
+    }
+
+    .historia--texto {
+    text-align: justify;
+    font-size: 1em;
+    padding: 1.75em;
+    }
+
+.historia--opciones {
+    text-align: center;
+    width: 100%;
+    padding: 2em 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+a {
+    text-decoration: none;
+    color: #fffc;
+    font-style: italic;
+    font-size: 50px;
+    }
+
+a:hover {
+    text-shadow: 0px 0px 10px #fff;
+    }
+
+.historia--opciones--titulo {
+    margin-bottom: 1em;
+    min-height: 100%;
+    font-size: 100px;
+    }
+}
