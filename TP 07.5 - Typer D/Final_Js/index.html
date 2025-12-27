@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Typer D - by thiago sosa</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="icon.png">
+</head>
+<body>
+  <div class="container">
+    <div class="main">
+      <h2>TYPER 3000</h2>
+      <p>Escribí la siguiente palabra:</p>
+
+      <h1 id="randomWord"></h1>
+
+      <input type="text" id="text" autocomplete="off" placeholder="Escribí la palabra aca" />
+
+      <p class="time-container">⏳ Tiempo restante: <span id="timeSpan">10s</span></p>
+
+      <p class="score-container">💯 Score: <span id="score">0</span></p>
+    </div>
+    <div id="end-game-container" class="end-game-container"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
