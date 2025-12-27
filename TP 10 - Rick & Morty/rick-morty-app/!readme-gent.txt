@@ -1,0 +1,1 @@
+No use la biblioteca de estilos porque me daba error, intente con otra pero tuve muchos problemas, por lo que decidi simplemente encerrar el icono en una variable. 
