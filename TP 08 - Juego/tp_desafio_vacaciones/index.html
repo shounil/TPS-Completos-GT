@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Adivina el color - by thiago sosa</title>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="icon" href="icon.png">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>El juego con mas aura de adivinar un color</h1>
+    <p>Encontrá el color: <span id="colorDisplay">rgb(??, ??, ??)</span></p>
+  </header>
+
+  <div id="stripe">
+    <button id="reset">Nuevos Colores</button>
+    <span id="message"></span>
+    <div class="modes">
+      <button class="mode selected">Easy</button>
+      <button class="mode">Hard</button>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
